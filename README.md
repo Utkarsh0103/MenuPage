@@ -1,2 +1,2 @@
 # MenuPage
-Menu page for an online ordering site
+Menu page for an online food ordering site
