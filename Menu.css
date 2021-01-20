@@ -1,0 +1,53 @@
+.text-center{
+	font-style: italic;
+	color:;
+}
+.card-columns {
+    column-count: 3;
+}
+.glow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    transition-duration: 0.3s;
+    transition-property: box-shadow;
+  }
+  .glow:hover, .glow:focus, .glow:active {
+    box-shadow: 1px 1px 8px rgb(0,255,0);
+  }
+  .parallax{
+  	background: url('https://b.zmtcdn.com/data/images/order/home_page_bg.jpg') repeat fixed 100%;
+  	padding-top: 7%;
+  	padding-bottom: 7%;
+  }
+  .parallax1{
+  	background: url('https://b.zmtcdn.com/data/images/order/home_page_bg.jpg') repeat fixed 100%;
+  	padding-top: 3%;
+  	padding-bottom: 2%;
+  	padding-left: 2%;
+  	padding-right: 2%;
+  }
+  .jumbotron-fluid{
+  	color:#f0f1f2;
+  }
+.navbar{
+  background: #2c3e50;
+  color: white;
+}
+.navbar-nav>li>a{
+   color: white;
+}
+.by {
+   color: white;
+   margin-right: 20px;
+}
+body {
+  background-image: url('https://b.zmtcdn.com/data/images/order/home_page_bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.headi{
+	color:white;
+	}
